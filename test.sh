@@ -1,4 +1,4 @@
-MAP=./dao-map/$1.map
+MAP=./MapSrcs/$1.map
 ALG=$2
 
 make ALG=$ALG
