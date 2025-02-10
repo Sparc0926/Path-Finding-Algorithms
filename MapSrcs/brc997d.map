@@ -1,7 +1,4 @@
-type octile
-height 256
-width 256
-map
+256 256
 @@@@@@@@@@@@@@@@@@@@@@@@TTTTTTTTTTTT@@@TTTTTTTTTTTTT@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@TTTTTTTTTTT@@@@@@TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT@@@@@@@@@@@@@@@@@TTTT@@@@@@@@@@@@@@@@@@@@@@@@@@@@TTTT@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@TTTTT@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@TT@TTT@TTTTT@@TTTTTTTTTTTTTT@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@TTTTTT@@@@@@@@@@TTTTTTTTTTTTTT@TTTTTTTTTTTTTTTT@TTT@@@@@@@@@@@@@@@TT@@@@@@@@@@TT@@@@@@@@@@@@@@@TTTTTT@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@TTTTT@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@TTTTT@T@TTTT@TTTTTTTTTTTTTTT@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@TTT@@@@@@@@@@@TTTTTTTTTTTTTTTTTTTTTTTTTTTT@@@@TTTTT@@@TT@@@@@@@@@@@@@@@@@@@@@TT@@@@@@@@@@@TTTTTTTTTT@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@TTTTT@@@@@@@@@@@@@@@

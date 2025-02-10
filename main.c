@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "./SearchAlg/pathfinder.h"
+#include "./Animator/Animator.h"
 
 int main(int map_num, char* maps[])
 {
+    begin_animate("frame1.pgm");
+
+    write_cell(3, 5, 12.3);
+
+    end_animate();
     // read the original map of characters from command argument
     FILE* src_map = fopen(maps[1], "r");
     // read the dimension of the map
