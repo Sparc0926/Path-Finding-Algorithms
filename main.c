@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "./algorithms/pathfinder.h"
+#include "./SearchAlg/pathfinder.h"
 
 int main(int map_num, char* maps[])
 {
@@ -14,18 +14,14 @@ int main(int map_num, char* maps[])
     // create the hash array with bijection y*c+x
     map = (Map*)malloc(r * c);
     // read the content of the map
-    char line[c];
+    //char line[c];
     if (!fgetc(src_map))  return -1;
-    while (fgets(line, c, src_map) != NULL)
-        printf("%s", line);
     //int sx = 3, sy = 1, tx = 5, ty = 2;
     #ifndef ALG
         printf("ALG is not defined!\n");
         return -1;
     #endif//ALG
     //printf("%f\n", ALG(sy * c + sx, ty * c + tx));
-    
-    // brown: 139  69  19
 
     return 0;
 }

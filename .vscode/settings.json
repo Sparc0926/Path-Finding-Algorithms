@@ -4,6 +4,8 @@
         "random": "c",
         "stdio.h": "c",
         "stdlib.h": "c",
-        "map": "c"
+        "map": "c",
+        "ratio": "c",
+        "animator.h": "c"
     }
 }

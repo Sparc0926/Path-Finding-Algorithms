@@ -12,9 +12,10 @@ float BFS(int src, int tar)
     do {
         for (int i = 0; i < 8; i++) {
             int suc = queue[head] + dy[i] * c + dx[i];
-            if (map[suc].cell != '.')  continue;
+            if (map[suc].tile != '.')  continue;
             queue[++tail] = suc;
             map[suc].cost = map[queue[head]].cost  + (i & 1 ? 1.5f : 1.0f);
+            map[suc].from = (dx[i] << 2) + dy[i];
             if (suc == tar) {
                 return map[tar].cost;
                 free(queue);

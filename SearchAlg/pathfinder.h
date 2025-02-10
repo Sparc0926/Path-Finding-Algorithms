@@ -3,8 +3,9 @@
 
 // num of rows and columns
 int r, c;
+// from is the value hased by 4*dx+dy
 typedef struct {
-    char cell, r, g, b;
+    char tile, from;
     float cost;
 } Map;
 Map* map;

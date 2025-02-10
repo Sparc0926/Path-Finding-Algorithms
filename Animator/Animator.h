@@ -3,9 +3,6 @@
 
 #include <stdio.h>
 
-FILE* animation;
-
-void begin_animation();
-void write_frame();
+char tcell[31][31];
 
 #endif//ANIMATOR_H
